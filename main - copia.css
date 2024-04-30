@@ -8,10 +8,13 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
-  margin: 0;
+  font-size: 80px;
+  margin: 0px;
   padding-left: 20px;
 }
 
@@ -66,4 +69,23 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+ 
+ul{
+  gap: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+li{
+  margin-top: 10px;
+margin: auto;
+}
+
+#logo{
+width: 100px;
+height: 100px;
+}
+#about{
+  box-shadow: 10px;
 }
